@@ -33,9 +33,9 @@ def factor(r):
         f.append([1,t])
     return f
 
-loops_1 = 1 #first section with factorising
+loops_1 = 6 #first section with factorising
 
-num = "(x-1)"
+num = "17"
 a = num
 for i in range(loops_1):
     y = randint(0,2)
@@ -77,7 +77,7 @@ symbols_2 = ["/","*"]
 symbols_3 = ["*","/"]
 symbols_4 = ["-","+","/","*"]
 
-loops_2 = 2 #loops in second section with forming equation
+loops_2 = 6 #loops in second section with forming equation
 lower = 0
 upper = 1000
 total_right = ""
